@@ -14,7 +14,6 @@
  
  ```console
  foo@bar:~$ gh repo clone foxwyn/petal
- Cloning repository...
  foo@bar:~$ cd ./petal
  foo@bar:~/petal$ rake install
  ```
