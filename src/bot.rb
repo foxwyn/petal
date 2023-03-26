@@ -27,9 +27,9 @@ module Petal
   load_modules(:Commands, 'commands')
   load_modules(:Events, 'events')
 
-  # Blast off!
-  BOT.run
-
   puts "Petal v#{Petal::VERSION} is now running."
   puts "Invite at https://discord.com/api/oauth2/authorize?client_id=#{ENV['DISCORD_CLIENT_ID']}&permissions=0&scope=bot"
+  
+  # Blast off!
+  BOT.run
 end
