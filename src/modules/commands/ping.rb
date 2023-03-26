@@ -1,4 +1,4 @@
-module Bubbles::Commands
+module Petal::Commands
   module Ping
     extend Discordrb::Commands::CommandContainer
 

@@ -9,7 +9,7 @@ module Petal
     # Discord bot
     BOT = Discordrb::Commands::CommandBot.new(
       client_id: ENV['DISCORD_CLIENT_ID'],
-          token: ENV['DISCORD_TOKEN'],
+          token: ENV['DISCORD_BOT_TOKEN'],
          prefix: ENV['BOT_PREFIX']
     )
 
