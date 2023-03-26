@@ -31,5 +31,5 @@ module Petal
   BOT.run
 
   puts "Petal v#{Petal::VERSION} is now running."
-  puts "Invite URL: https://discord.com/api/oauth2/authorize?client_id=#{ENV['DISCORD_CLIENT_ID']}&permissions=0&scope=bot"
+  puts "Invite at https://discord.com/api/oauth2/authorize?client_id=#{ENV['DISCORD_CLIENT_ID']}&permissions=0&scope=bot"
 end
