@@ -12,14 +12,6 @@
 
  It's modular design is based on a now unavailable project called Gemstone created by z64. Most specifically, the module loader mechanism.
 
-## Requirements
- There are a couple assumed baseline requirements for utilizing this project. The main ones being:
- - Ruby
- - Bundler
- - Rake
-
- Petal is currently developed on Windows using v3.1.3p185
-
 ## Installation
  From the directory where you store your projects/code, run the following using the Github CLI"
  
@@ -46,3 +38,11 @@ Invite at https://example.com/invite/bot/1234567890
 ```
 
 And that is that. By default, you can shutdown your bot by typing `!stop` in a channel your bot has permission to read.
+
+## Requirements
+ There are a couple assumed baseline requirements for utilizing this project. The main ones being:
+ - Ruby
+ - Bundler
+ - Rake
+
+ Petal is currently developed on Windows using v3.1.3p185
