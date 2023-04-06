@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Petal::Events
   module Ready
     extend Discordrb::EventContainer

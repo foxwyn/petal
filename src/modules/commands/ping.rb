@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Petal::Commands
   module Ping
     extend Discordrb::Commands::CommandContainer
