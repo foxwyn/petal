@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/foxwyn/petal)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/foxwyn/petal)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/foxwyn/petal)
+
 # Petal
  A basic starting point for new Discord bot projects utilizing discordrb.
 
@@ -37,7 +41,7 @@ Petal v0.0.0 is now running.
 Invite at https://example.com/invite/bot/1234567890
 ```
 
-And that is that. By default, you can shutdown your bot by typing `!stop` in a channel your bot has permission to read.
+If properly configured in your environment, a ready message should appear in the log channel. By default, the configured owner can shutdown the bot by typing `!stop` in a channel the bot has permission to read.
 
 ## Requirements
  There are a couple assumed baseline requirements for utilizing this project. The main ones being:
