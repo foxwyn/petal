@@ -5,8 +5,10 @@ module Petal::Commands
     extend Discordrb::Commands::CommandContainer
     
     command(:stop, description: 'Stops the bot', usage: 'stop') do |event|
-      event.channel.send_message('Stopping bot...')
+      break unless event.user.id == ENV['BOT_OWNER_ID'].to_i
       
+      event.channel.send_message('Stopping bot...')
+    
       Petal::BOT.stop
       exit
     end
