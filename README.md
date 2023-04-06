@@ -1,8 +1,8 @@
+# Petal
 ![GitHub](https://img.shields.io/github/license/foxwyn/petal)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/foxwyn/petal)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/foxwyn/petal)
 
-# Petal
  A basic starting point for new Discord bot projects utilizing discordrb.
 
  This project exists because I frequently need to make small or one-off discordrb bots, and end up having to duplicate a lot of repetitive structure and functionality. I hope to create a more sensible and maintainable skeleton for future bot projects.
